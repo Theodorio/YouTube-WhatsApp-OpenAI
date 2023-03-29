@@ -7,6 +7,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["python 3.8" "run.py"]
