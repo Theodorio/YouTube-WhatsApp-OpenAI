@@ -7,6 +7,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-EXPOSE 3000
-
-CMD ["python 3.8" "run.py"]
+CMD ["flask", "run.py", "--host=0.0.0.0"]
